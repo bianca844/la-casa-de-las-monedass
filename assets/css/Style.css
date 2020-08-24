@@ -1,0 +1,311 @@
+
+body{
+    
+    background: linear-gradient(90deg, rgb(168, 38, 34) , rgb(103, 43, 43));
+}
+
+    @font-face {
+        font-family: 'Playfair Display';
+        src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'RobotoSlab';
+        src: url('../font/RobotoSlab-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'WorkSans';
+        src: url('../font/WorkSans-VariableFont_wght.ttf');
+    }
+    @font-face{
+        font-family: 'Inter';
+        src: url('../font/Inter-VariableFont_slnt,wght.ttf')
+    }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+#moeda{
+    font-size: 1.5em;
+}
+
+
+#efeito{
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    
+}
+
+#harry{
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+
+
+#boton{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    
+    
+    background-color: rgb(189, 189, 189);
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center; 
+
+}
+
+#boton a {
+    display: block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+#mione{
+    display: flex;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+#blabla{
+    display: block;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+#imginicio{
+    
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 250px 0px 250px 0px;
+    margin: 0px 0px;
+}
+#boton{
+    width: 100%;
+    background-color: rgb(255, 255, 255);    ;
+    top: 100px;
+    left: -100%;
+    position: absolute;
+    transition: 0.7s left ease;
+}
+
+#dolar p {
+
+    text-align: justify;
+}
+    
+#imgdoleta {
+    background-image: url(../img/dólar.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+
+#euro p {
+
+    text-align: justify;
+}
+#imgeureto{
+    background-image: url(../img/euro.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+#libra p {
+
+    text-align: justify;
+}
+#imglibreta{
+    background-image: url(../img/libraesterlina.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+#lene p {
+
+    text-align: justify;
+}
+
+#imglene{
+    background-image: url(../img/iene.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+#franco p {
+
+    text-align: justify;
+}
+#frangosuico{
+    background-image: url(../img/francosuico.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+
+#textlistamoeda p{
+text-align: justify;
+text-shadow: black;
+}
+
+.mostrar{
+    left: 0px !important;
+}
+
+#result{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+.info-moeda, .info-moeda2, .info-valor, .info-resultado {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+#lista{
+    padding: .5em; 
+	font-weight: bold;
+    border: 1px solid #ccc;
+    color: white;
+    
+}
+.moeda{
+	font-weight: bold;
+	background-color: #EEE;
+}
+#barra{
+    padding: 5px 5px;
+}
+#moedas, #moeda-padrao {
+    margin: 5px 0;
+    padding: 5px 5px;
+}
+#clicke{
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+#moedas-preferidas input, button{
+    padding: 5px 5px;
+}
+#moedas-preferidas li{
+    display: block;
+    color: white;
+}
+#moedas-preferidas, a{
+    color: black;
+    padding: 0 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+#moedas-preferidas a:hover{
+    color: white;
+}
+.info-preferidas{
+    color: white;
+}
+
+@media (min-width: 600px){
+    #boton{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #imginicio{
+        width: 80%;
+        max-width: 500px;
+    }
+
+    #imgdoleta{
+        width: 80%;
+        max-width: 500px;
+    }
+    #imgeureto{
+
+        width: 80%;
+        max-width: 500px
+    }
+    #imglibreta{
+
+        width: 80%;
+        max-width: 500px
+    }
+
+    #imglene{
+
+        width: 80%;
+        max-width: 500px
+    }
+    #frangosuico{
+
+        width: 80%;
+        max-width: 500px
+    }
+    
+
+}
+
+td span {
+    color: #fffef5;
+}
+
+h1 span {
+
+    color:black;
+}
+
+h2 span {
+
+    color:black;
+}
+
+h4 span {
+
+    color:black;
+}
+
+p span {
+
+    color: #fffef5;
+
+}
